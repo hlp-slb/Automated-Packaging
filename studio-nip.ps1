@@ -567,6 +567,7 @@ switch ($PsCmdlet.ParameterSetName)
                     }
                     $CaptureTimeout = $json.CaptureSettings.CaptureTimeoutSec
                     $DefaultDispositionLayer = $json.VirtualizationSettings.DefaultDispositionLayer
+                    $DefaultServiceVirtualizationAction = $json.VirtualizationSettings.DefaultServiceVirtualizationAction
                     $OutputFileNameNoExt = $json.OutputSettings.OutputFileNameNoExt
                     if($appset_name){
                         $OutputFileNameNoExt = $appset_name
